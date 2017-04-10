@@ -1,0 +1,619 @@
+
+/****** Main styles ******/
+
+* {
+	box-sizing: border-box;
+	font-size: 10px;
+}
+
+/******* head ******/
+.block {
+	width: 100%;
+	background-size: 100% 100%;
+	text-align: center;
+	padding: 5rem 20rem;
+}
+.header {
+	background: url(../img/bg-h.jpg) no-repeat center;
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.menu-head {
+	position: relative;
+}
+.logo-head {
+	font-family: 'WisdomScriptAJ';
+	color: #fed136;
+	font-size: 2.6rem;
+	line-height: 41px;
+	display: inline-block;
+	left: 0;
+	position: absolute;
+}
+.menu {
+	margin-top: 5px;
+	text-transform: uppercase;
+	display: inline-block;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 41px;
+	font-size: 1.4rem;
+	position: absolute;
+	right: 0;
+}
+.menu-in a{
+	margin-right: 2rem;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	-ms-transition: all 0.1s;
+	-o-transition: all 0.1s;
+	transition: all 0.1s;
+}
+.home-text {
+	margin-top: 35rem;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.home-text h3{
+	font-family: 'Droid Serif', serif;
+	color: #fff;
+	font-size: 4rem;	
+}
+.home-text h1 {
+	text-transform: uppercase;
+	font-size: 7.5rem;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	margin-bottom: 8rem;
+}
+.button {
+	display: block;
+	width: 24rem;
+	height: 6.5rem;
+	text-transform: uppercase;
+	border-radius: 3px;
+	background-color:  #fed136;
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	margin: 0 auto;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-ms-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	
+}
+a.button {
+	text-decoration: none;
+	vertical-align: middle;
+	line-height: 6.5rem;
+}
+a.button:focus {
+	color: #fff;
+}
+a.button:hover {
+	color: black;
+}
+.menu-in a:hover{
+	color: #fed136;
+	border-bottom: 3px solid #fed136;
+}
+
+/******* services ******/
+#services {
+	height: auto;
+	text-align: center;
+}
+h2.in {
+	font-family: 'Montserrat';
+	color:  #222222;
+	font-size: 4rem;
+	font-weight: 700;
+	line-height: 75px;
+	text-transform: uppercase;
+	margin-bottom: -5px;
+}
+span.in {
+	font-family: 'DroidSerif';
+	color: #777777;
+	font-size: 1.6rem;
+	margin-bottom: 7rem;
+	font-style: italic;
+	display: block;	
+}
+.serv-card {
+	font-family: 'RobotoSlab';
+	color:  #777777;
+	font-size: 1.4rem;
+	margin-bottom: 3.5rem;
+}
+
+.serv-card img {
+	margin-bottom: 1.8rem;
+}
+
+
+/********* port ***********/
+#portfolio {
+	text-align: center;
+	background-color: #f7f7f7;
+	padding: 3rem 5%;
+}
+.port-card {
+	margin: 1.5rem;
+	background: #fff;
+	padding-bottom: 2rem;
+	display: inline-block;
+	width: 30%;
+}
+.port-card img {
+	width: 100%;
+}
+.card-h {
+	margin-top: 3rem;
+	font-family: 'Montserrat';
+	color:  #333333;
+	font-size: 1.8rem;
+	font-weight: 700;
+}
+.card-p {
+	font-family: 'DroidSerif';
+	color: #737373;
+	font-size: 1.4rem;
+	font-style: italic;
+	display: block;
+}
+.cont-port {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0 15rem;
+}
+
+/****** ABOUT BLOCK ******/
+.line {
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	background-color: #f1f1f1;
+	width: 3px;
+	height: 1000px;
+	margin-bottom: 20rem;
+}
+.about-in {
+	position: absolute;
+	left: -90px;
+	top: -10px;
+}
+.about-in img {
+	display: inline-block;
+	position: absolute;
+	
+}
+.text-in {
+	position: absolute;
+	width: 307px;
+	height: 183px;
+	top: -10px;
+}
+.jule .text-in, .december .text-in {
+	left: -350px;
+}
+.january .text-in, .february .text-in  {
+	left: 225px;
+}
+.january {
+	top: 250px;
+}
+.december {
+	top: 500px;
+}
+.february {
+	top: 750px;
+}
+.about-in-last {
+	border-radius: 50%;
+	border: 7px solid #f1f1f1;
+	background-color:  #fed136;
+	width: 183px;
+	height: 183px;
+	margin: 0;
+	position: absolute;
+	left: -90px;
+	top: 990px;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	color:  #ffffff;
+	font-size: 1.8rem;
+	font-weight: 700;
+	text-align: center;
+	text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+	padding-top: 30px;
+}
+.h-about {
+	font-family: 'Montserrat';
+	color: #222222;
+	font-size: 18px;
+	font-weight: 700;
+}
+.s-about {
+	font-family: 'DroidSerif';
+	color: #777777;
+	font-size: 1.6rem;
+}
+
+
+/******* TEAM BLOCK *******/
+#team {
+	background-color: #f9f9f9;
+	text-align: center;
+	padding-bottom: 5rem;
+}
+.team-p {
+	margin-bottom: 5rem;
+}
+.team-p .card-p{
+	font-style: normal;
+	font-family: 'Montserrat';
+}
+
+.icon {
+	width: 41px;
+	height: 41px;
+	display: inline-block;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	background-size: cover;
+}
+
+.twitter {
+	background: url(../img/team/Twitter.png) no-repeat center;
+}
+.facebook {
+	background: url(../img/team/Facebook.png) no-repeat center;
+}
+.printest {
+	background: url(../img/team/Pinterest.png) no-repeat center;
+}
+.google {
+	background: url(../img/team/Google+.png) no-repeat center;
+}
+.twitter:hover {
+	background: url(../img/team/Twitter-hov.png) no-repeat center;
+}
+.facebook:hover {
+	background: url(../img/team/Facebook-hov.png) no-repeat center;
+}
+.printest:hover {
+	background: url(../img/team/Pinterest-hov.png) no-repeat center;
+}
+.google:hover {
+	background: url(../img/team/Google+-hov.png) no-repeat center;
+}
+.quote {
+	width: 600px;
+	font-family: 'RobotoSlab';
+	color:  #777777;
+	font-size: 1.6rem;
+	font-weight: 400;
+	text-align: center;
+}
+.team-p img {
+	height: 25rem;
+	width: 25rem;
+}
+/********* LOGOS **********/
+#logos {
+	text-align: center;
+	background-color: #fff;
+	padding-top: 5rem;
+	padding-bottom: 2rem;	
+}
+.logo {
+	padding-bottom: 3rem;
+}
+
+/******** CONTACT BLOCK **********/
+#contact {
+	height: auto;
+	background: url(../img/contact/bg.png) no-repeat right;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+#contact h2.in {
+	color: #fff;
+	margin-top: -3rem;
+	font-size: 4rem;
+}
+.inpt {
+	margin-bottom: 38px;
+	padding: 25px;
+	font-size: 1.4rem;
+}
+.inpt, textarea {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 1.4rem;
+	color: #000;
+}
+/*********** FOOTER ************/
+.footer {
+	text-align: center;
+	position: relative;
+	padding-bottom: 3rem;
+	height: 100px;
+	text-align: center;
+	padding-top: 3rem;
+}
+.soc-foot-img {
+	top: 3rem;
+	display: block;
+	/*position: absolute;*/
+	margin: 0 auto
+}
+.footer span {
+	top: 3rem;
+	left: 5rem;
+	position: absolute;
+	line-height: 4.1rem;
+	font-family: 'Montserrat';
+	color:  #555555;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.soc-foot-img .twitter {
+	background: url(../img/footer/Twitter.png) no-repeat center;
+}
+.soc-foot-img .facebook {
+	background: url(../img/footer/Facebook.png) no-repeat center;
+}
+.soc-foot-img .printest {
+	background: url(../img/footer/Pinterest.png) no-repeat center;
+}
+.soc-foot-img .google {
+	background: url(../img/footer/Google.png) no-repeat center;
+}
+.soc-foot-img .twitter:hover {
+	background: url(../img/team/Twitter-hov.png) no-repeat center;
+}
+.soc-foot-img .facebook:hover {
+	background: url(../img/team/Facebook-hov.png) no-repeat center;
+}
+.soc-foot-img .printest:hover {
+	background: url(../img/team/Pinterest-hov.png) no-repeat center;
+}
+.soc-foot-img .google:hover {
+	background: url(../img/team/Google+-hov.png) no-repeat center;
+}
+
+
+#portfolio:target {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	
+}
+
+/*** adaptive ***/
+
+@media(min-width: 1600px) {
+	html {
+		font-size: 11px;
+	}
+}
+@media(max-width: 1370px) {
+	.port-card {
+		margin: 3rem;
+		background: #fff;
+		padding-bottom: 2rem;
+		display: inline-block;
+		width: auto;
+	}
+	.cont-port {
+		padding: 0;
+	}
+}
+@media(max-width: 1280px) {
+	html{
+		font-size: 9px;
+	}
+	.block {
+		padding: 3rem 15rem;
+	}
+	.header h1{
+		font-size: 6rem;
+	}
+	.inpt {
+		margin-bottom: 25px;
+	}
+	.home-text h1 {
+		font-size: 5.4rem;
+	}
+}
+@media(max-width: 900px) {
+	.line {
+		background-color: #fff;
+	}
+	.jule, .december {
+		left: 10rem;
+	}
+	.january, .february {
+		left: -35rem;
+	}
+}
+@media(max-width: 860px) {
+	.block {
+		padding: 3rem 5rem;
+	}
+	.home-text {
+		margin-top: 30rem;
+	}
+}
+@media(max-width: 767px) {
+	#portfolio {
+		padding: 3rem 20%;
+	}
+	#contact .button {
+		margin-top: 3rem;
+	}
+	.home-text h1 {
+		font-size: 5.2rem;
+	}
+}
+@media(max-width: 661px) {
+	html {
+		font-size: 7px;
+	}
+	.header{
+		height: 500px;
+	}
+	.footer {
+		height: auto;
+		padding: 3rem 3rem;
+	}
+	.soc-foot-img {
+		display: block;
+		position: static;
+	}
+	.footer span {
+		display: block;
+		position: static;
+		padding-bottom: 2rem;
+	}
+	#about{
+		height: 1400px;
+	}
+	.about-in-last {
+		font-size: 2.5rem;
+	}
+	.card-h {
+		font-size: 2.3rem;
+	}
+	.card-p {
+		font-size: 1.8rem;
+	}
+	.home-text h3 {
+		font-size: 2.5rem;
+	}
+	.home-text h1 {
+		font-size: 4.9rem;
+	}
+}
+@media(max-width: 600px) {
+	.about-in {
+		text-align: left;
+		display: block;
+		position: static;
+		margin-bottom: 50px;
+		margin-left: -90px;
+	}
+	.about-in img {
+		position: static;
+		display: block;
+	}
+	.text-in {
+		text-align: center;
+		display: block;
+		position: static;
+		margin-top: 25px;
+		margin-left: -60px;
+	}
+	.about-in-last {
+		position: static;
+		display: block;
+		margin-left: -90px;
+	}
+	#about{
+		height: 2200px;
+	}
+	.port-card {
+		margin: 3rem 0;
+	}
+}
+@media(max-width: 490px) {
+	.logo-head {
+		display: block;
+		position: static;
+	}
+	.menu {
+		display: block;
+		left: 5px;
+	}
+	.home-text h1 {
+		font-size: 4.3rem;
+	}
+}
+@media(max-width: 463px) {
+	html {
+		font-size: 6px;
+	}
+	.about-in-last {
+		padding-top: 6rem;
+	}
+	span.in {
+		font-size: 2rem;
+	}
+	.text-in {
+		display: block;
+		width: 260px;
+		margin: 0 auto;
+		transform: translateX(-15%);
+		padding: 0;
+	}
+	span.s-about {
+		display: inline-block;
+		font-size: 2rem;
+		position: static;
+		width: 80%;
+	}
+	h2.in {
+		font-size: 3rem;
+	}
+	h2.h-about {
+		font-size: 3rem;
+		display: inline-block;
+	}
+	#portfolio {
+		padding: 0 1rem;
+	}
+	#header {
+		padding: 5rem 1rem;
+	}
+	#about {
+		padding: 0;
+	}
+	.menu-in a {
+		margin-right: 0rem;
+	}
+	.cont-port {
+		display: block;
+		margin: 0 auto;
+	}
+	.port-card img {
+		height: 261px;
+		width: 251px;
+	}
+	#about{
+		height: 2000px;
+	}
+	.home-text h1 {
+		font-size: 3.8rem;
+	}
+}
