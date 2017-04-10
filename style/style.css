@@ -538,17 +538,36 @@ span.in {
 	span.in {
 		font-size: 2rem;
 	}
+	.text-in {
+		display: block;
+		width: 260px;
+		margin: 0 auto;
+		transform: translateX(-15%);
+		padding: 0;
+	}
 	span.s-about {
-		font-size: 2.5rem;
+		display: inline-block;
+		font-size: 2rem;
+		position: static;
+		width: 80%;
 	}
 	h2.in {
 		font-size: 3rem;
 	}
 	h2.h-about {
-		font-size: 4rem;
+		font-size: 3rem;
+		display: inline-block;
 	}
 	#portfolio {
 		padding: 3rem 13%;
 	}
-
+	#header {
+		padding: 5rem 1rem;
+	}
+	#about {
+		padding: 0;
+	}
+	.menu-in a {
+		margin-right: 0rem;
+	}
 }
